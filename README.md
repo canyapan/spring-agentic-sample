@@ -1,16 +1,26 @@
 # Getting Started
+
 ### Ollama setup for Mac
+
 Install ollama and run on your local
-`brew install ollama`
-`brew services start ollama`
+```
+$ brew install ollama
+$ brew services start ollama
+```
+
 Pull `phi4-mini` or similar tools supporting model
-`ollama pull phi4-mini`
+```
+$ ollama pull phi4-mini
+```
 
 ### Call API
-`curl -X POST "http://localhost:8080/v1/agent/info" -H "Content-Type: application/json" -d '{"question": "Tell me a joke"}'`
-`curl -X POST "http://localhost:8080/v1/agent/app"  -H "Content-Type: application/json" -d '{"service": "test-service", "instance": "test-service-102423", "memoryUsage": 0.951, "cpuUsageAverageLast1Min":0.12, "latencyInMillisAverageLast1Min":824}'`
+```
+$ curl -X POST "http://localhost:8080/v1/agent/info" -H "Content-Type: application/json" -d '{"question": "Tell me a joke"}'
+$ curl -X POST "http://localhost:8080/v1/agent/app"  -H "Content-Type: application/json" -d '{"service": "test-service", "instance": "test-service-102423", "memoryUsage": 0.951, "cpuUsageAverageLast1Min": 0.12, "latencyInMillisAverageLast1Min": 824}'
+```
 
 ### Reference Documentation
+
 For further reference, please consider the following sections:
 
 * [Official Gradle documentation](https://docs.gradle.org)

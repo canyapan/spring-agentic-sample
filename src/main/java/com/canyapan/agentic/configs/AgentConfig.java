@@ -1,8 +1,8 @@
-package com.canyapan.agentic_sample.configs;
+package com.canyapan.agentic.configs;
 
-import com.canyapan.agentic_sample.agents.AppActionAgent;
-import com.canyapan.agentic_sample.agents.InfoAgent;
-import com.canyapan.agentic_sample.tools.AppManagementTools;
+import com.canyapan.agentic.agents.AppActionAgent;
+import com.canyapan.agentic.agents.InfoAgent;
+import com.canyapan.agentic.tools.AppManagementTools;
 import dev.langchain4j.agentic.AgenticServices;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;

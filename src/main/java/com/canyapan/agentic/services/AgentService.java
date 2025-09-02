@@ -1,8 +1,8 @@
-package com.canyapan.agentic_sample.services;
+package com.canyapan.agentic.services;
 
-import com.canyapan.agentic_sample.agents.AppActionAgent;
-import com.canyapan.agentic_sample.agents.InfoAgent;
-import com.canyapan.agentic_sample.controllers.models.AppInput;
+import com.canyapan.agentic.agents.AppActionAgent;
+import com.canyapan.agentic.agents.InfoAgent;
+import com.canyapan.agentic.controllers.models.AppInput;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.canyapan.agentic_sample.tools;
+package com.canyapan.agentic.tools;
 
 import dev.langchain4j.agent.tool.Tool;
 import lombok.extern.java.Log;

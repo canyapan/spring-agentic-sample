@@ -1,10 +1,10 @@
-package com.canyapan.agentic_sample.controllers;
+package com.canyapan.agentic.controllers;
 
-import com.canyapan.agentic_sample.controllers.models.AppInput;
-import com.canyapan.agentic_sample.controllers.models.AppOutput;
-import com.canyapan.agentic_sample.controllers.models.InfoInput;
-import com.canyapan.agentic_sample.controllers.models.InfoOutput;
-import com.canyapan.agentic_sample.services.AgentService;
+import com.canyapan.agentic.controllers.models.AppInput;
+import com.canyapan.agentic.controllers.models.AppOutput;
+import com.canyapan.agentic.controllers.models.InfoInput;
+import com.canyapan.agentic.controllers.models.InfoOutput;
+import com.canyapan.agentic.services.AgentService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import org.springframework.web.bind.annotation.*;

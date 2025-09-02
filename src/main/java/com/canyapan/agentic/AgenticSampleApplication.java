@@ -1,4 +1,4 @@
-package com.canyapan.agentic_sample;
+package com.canyapan.agentic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

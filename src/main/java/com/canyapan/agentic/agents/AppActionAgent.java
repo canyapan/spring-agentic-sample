@@ -1,4 +1,4 @@
-package com.canyapan.agentic_sample.agents;
+package com.canyapan.agentic.agents;
 
 import dev.langchain4j.agentic.Agent;
 import dev.langchain4j.service.UserMessage;

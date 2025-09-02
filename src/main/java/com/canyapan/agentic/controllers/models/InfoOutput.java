@@ -1,4 +1,4 @@
-package com.canyapan.agentic_sample.controllers.models;
+package com.canyapan.agentic.controllers.models;
 
 import lombok.Builder;
 import lombok.Data;

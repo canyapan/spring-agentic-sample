@@ -4,4 +4,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'agentic-sample'
+rootProject.name = 'spring-agentic-sample'

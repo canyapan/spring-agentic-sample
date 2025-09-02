@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: agentic-sample
+
+ollama:
+  api: http://localhost:11434
+  model: phi4-mini

@@ -20,8 +20,12 @@ public class AgentService {
     }
 
     public String performAppChecks(AppInput appInput) {
-        return appActionAgent.decideAction(appInput.getService(), appInput.getInstance(),
-                appInput.getMemoryUsage(), appInput.getCpuUsageAverageLast1Min(), appInput.getLatencyInMillisAverageLast1Min());
+        return appActionAgent.decideAction(
+                appInput.getService(),
+                appInput.getInstance(),
+                appInput.getMemoryUsage(),
+                appInput.getCpuUsageAverageLast1Min(),
+                appInput.getLatencyInMillisAverageLast1Min());
     }
 
 }
